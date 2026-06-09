@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SummarizerComponent } from './summarizer/summarizer';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, SummarizerComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
