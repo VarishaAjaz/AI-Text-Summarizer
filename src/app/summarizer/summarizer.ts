@@ -16,7 +16,8 @@ export class SummarizerComponent {
   loading: boolean = false;
   copied: boolean = false;
 
-  private backendUrl = 'http://localhost:3000/summarize';
+  // private backendUrl = 'http://localhost:3000/summarize';
+  private backendUrl = 'http://ai-text-summarizer-production-49c4up.railway.app/summarize';
 
   constructor(private http: HttpClient) {}
 
